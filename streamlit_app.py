@@ -16,6 +16,11 @@ projects_page = st.Page(
     title="Project",
 )
 
-pg = st.navigation(pages=[queue_page, homepage_page, projects_page])
+stack_page = st.Page(
+    page="Projects/Stack.py",
+    title="Stack",
+)
+
+pg = st.navigation(pages=[queue_page, homepage_page, projects_page, stack_page])
 
 pg.run()
