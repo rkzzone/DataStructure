@@ -10,6 +10,18 @@ queue_page = st.Page(
     default=True,
 )
 
+homepage_page = st.Page(
+    page="Projects/Homepage.py",
+    title="Homepage",
+    default=True,
+)
+
+projects_page = st.Page(
+    page="Projects/Project.py",
+    title="Project",
+    default=True,
+)
+
 pg = st.navigation(pages=[queue_page])
 
 pg.run()
