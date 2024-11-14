@@ -22,6 +22,6 @@ projects_page = st.Page(
     default=True,
 )
 
-pg = st.navigation(pages=[queue_page])
+pg = st.navigation(pages=[queue_page, homepage_page, projects_page])
 
 pg.run()
