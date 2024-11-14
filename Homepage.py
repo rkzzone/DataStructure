@@ -7,7 +7,8 @@ st.set_page_config(
 st.title("Main Page")
 
 queue = st.Page(
-    page="Projects/Queue.py"
+    page="Projects/Queue.py",
+    title="Project Queue",
 )
 
 st.sidebar.success("Select a Page Above")
